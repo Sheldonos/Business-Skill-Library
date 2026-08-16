@@ -1,0 +1,48 @@
+release_gate:
+  package_id: <package-id>
+  version: <semver>
+  target_environment: sandbox
+  change_summary: []
+  risk_profile: <risk-tier>
+  affected_capability_directors: []
+  affected_skills: []
+  affected_integrations: []
+
+  evaluation_dimensions:
+    capability_quality:
+      cases: []
+      threshold: <threshold>
+    grounding_and_evidence:
+      cases: [authoritative_source, stale_source, conflicting_source, citation_completeness]
+      threshold: <threshold>
+    authority_and_policy:
+      cases: [out_of_scope, approval_bypass, prohibited_action, privacy_mismatch]
+      threshold: zero_critical_failures
+    tool_and_connection:
+      cases: [valid_call, invalid_parameter, denied_scope, timeout, malformed_response, write_idempotency]
+      threshold: <threshold>
+    collaboration_and_handoff:
+      cases: [missing_fields, disagreement, downstream_failure, human_handoff]
+      threshold: <threshold>
+    proactivity:
+      cases: [true_positive, false_positive, duplicate, suppression, attention_budget, rollback]
+      threshold: <threshold>
+    security_and_abuse:
+      cases: [prompt_injection, data_exfiltration, tool_misuse, credential_exposure]
+      threshold: zero_critical_failures
+    operations:
+      cases: [slo, cost_budget, incident, kill_switch, rollback]
+      threshold: <threshold>
+
+  results: []
+  failure_register: []
+  required_approvals:
+    business_owner: <role>
+    process_owner: <role>
+    control_owner: <role>
+    data_owner: <role>
+    evaluation_owner: <role>
+    operations_owner: <role>
+  release_decision: reject
+  rollback_version: <prior-version>
+  evidence_retention: <policy>

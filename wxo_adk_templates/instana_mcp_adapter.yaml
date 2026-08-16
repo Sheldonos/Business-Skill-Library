@@ -1,0 +1,38 @@
+tool_adapter:
+  id: TA-INSTANA-OBSERVABILITY
+  lifecycle: planned
+  system: IBM Instana Observability
+  business_operation: Retrieve application, infrastructure, trace, and alert evidence for an approved operational case.
+  implementation: local_mcp_or_remote_mcp
+  connection_ref: customer-configured-instana-connection
+  allowed_operations:
+    - query_application_metrics
+    - retrieve_trace_or_snapshot
+    - inspect_active_alerts
+    - inspect_infrastructure_topology
+  prohibited_operations:
+    - change_alert_configuration
+    - mutate_monitoring_configuration
+    - execute_remediation
+  maximum_action_tier: A0
+  identity_model: service_or_user_obo
+  data_classification: customer-configured
+  input_schema: instana_investigation_request.v1
+  output_schema: instana_evidence_packet.v1
+  validation:
+    - require_case_id_and_service_scope
+    - limit_time_range_and_result_volume
+    - redact_sensitive_payloads
+    - validate_response_against_requested_scope
+  error_handling:
+    - fail_closed_and_create_exception_on_denied_or_unavailable_access
+    - route_ambiguous_production_impact_to_incident_owner
+  evidence_fields: [query_ref, time_range, application_or_host_scope, trace_or_metric_refs, access_principal]
+  post_action_verification: not_applicable_read_only
+  owners:
+    service: observability_platform_owner
+    data: service_owner
+    credential_policy: identity_owner
+
+# This template does not configure an Instana endpoint, token, or connector.
+# Store credentials in an approved runtime connection or credential broker only.

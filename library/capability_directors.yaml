@@ -1,0 +1,1676 @@
+capability_directors:
+- id: CD-CUSTOMER-SERVICE-CASE-INTAKE-AND-ROUTING
+  category_id: customer-service
+  name: Case Intake and Routing
+  atomic_skills:
+  - customer-service-backlog-prioritization-support
+  - customer-service-case-closure-quality-check
+  - customer-service-case-intake-classification
+  - customer-service-service-level-risk-monitoring
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CUSTOMER-SERVICE-CONTACT-CENTER-OPERATIONS
+  category_id: customer-service
+  name: Contact Center Operations
+  atomic_skills:
+  - customer-service-agent-coaching-preparation
+  - customer-service-digital-channel-health-review
+  - customer-service-qa-sample-selection
+  - customer-service-workforce-schedule-exception
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CUSTOMER-SERVICE-CUSTOMER-RETENTION-SUPPORT
+  category_id: customer-service
+  name: Customer Retention Support
+  atomic_skills:
+  - customer-service-customer-save-case-preparation
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CUSTOMER-SERVICE-ENTITLEMENT-AND-REMEDY-OPERATIONS
+  category_id: customer-service
+  name: Entitlement and Remedy Operations
+  atomic_skills:
+  - customer-service-entitlement-validation
+  - customer-service-refund-exception-preparation
+  - customer-service-service-consent-check
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CUSTOMER-SERVICE-ESCALATION-AND-COMPLAINT-MANAGEMENT
+  category_id: customer-service
+  name: Escalation and Complaint Management
+  atomic_skills:
+  - customer-service-case-escalation-preparation
+  - customer-service-complaint-classification
+  - customer-service-major-incident-customer-update
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CUSTOMER-SERVICE-KNOWLEDGE-AND-RESOLUTION-SUPPORT
+  category_id: customer-service
+  name: Knowledge and Resolution Support
+  atomic_skills:
+  - customer-service-knowledge-evidence-retrieval
+  - customer-service-self-service-gap-analysis
+  - customer-service-troubleshooting-plan-draft
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CUSTOMER-SERVICE-SERVICE-DELIVERY-COORDINATION
+  category_id: customer-service
+  name: Service Delivery Coordination
+  atomic_skills:
+  - customer-service-accessibility-accommodation-handoff
+  - customer-service-cross-team-handoff-readiness
+  - customer-service-field-service-dispatch-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CUSTOMER-SERVICE-SERVICE-QUALITY-AND-IMPROVEMENT
+  category_id: customer-service
+  name: Service Quality and Improvement
+  atomic_skills:
+  - customer-service-root-cause-evidence-compilation
+  - customer-service-service-quality-scorecard
+  - customer-service-support-analytics-pack
+  - customer-service-survey-insight-synthesis
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CYBER-RESILIENCE-CLOUD-SECURITY
+  category_id: cyber-resilience
+  name: Cloud Security
+  atomic_skills:
+  - cyber-resilience-cloud-configuration-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CYBER-RESILIENCE-CRISIS-MANAGEMENT
+  category_id: cyber-resilience
+  name: Crisis Management
+  atomic_skills:
+  - cyber-resilience-crisis-coordination-case
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CYBER-RESILIENCE-DATA-PROTECTION
+  category_id: cyber-resilience
+  name: Data Protection
+  atomic_skills:
+  - cyber-resilience-data-loss-case-preparation
+  - cyber-resilience-encryption-coverage-review
+  - cyber-resilience-privacy-breach-intake
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CYBER-RESILIENCE-ENDPOINT-SECURITY
+  category_id: cyber-resilience
+  name: Endpoint Security
+  atomic_skills:
+  - cyber-resilience-endpoint-health-assessment
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CYBER-RESILIENCE-IDENTITY-SECURITY
+  category_id: cyber-resilience
+  name: Identity Security
+  atomic_skills:
+  - cyber-resilience-certificate-lifecycle-monitoring
+  - cyber-resilience-identity-access-anomaly
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CYBER-RESILIENCE-INCIDENT-RESPONSE
+  category_id: cyber-resilience
+  name: Incident Response
+  atomic_skills:
+  - cyber-resilience-forensics-preservation-readiness
+  - cyber-resilience-security-incident-case
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CYBER-RESILIENCE-PHYSICAL-SECURITY
+  category_id: cyber-resilience
+  name: Physical Security
+  atomic_skills:
+  - cyber-resilience-badge-access-exception
+  - cyber-resilience-physical-security-event-triage
+  - cyber-resilience-visitor-access-anomaly
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CYBER-RESILIENCE-RESILIENCE-AND-RECOVERY
+  category_id: cyber-resilience
+  name: Resilience and Recovery
+  atomic_skills:
+  - cyber-resilience-cyber-resilience-assessment
+  - cyber-resilience-disaster-recovery-exercise-pack
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CYBER-RESILIENCE-SECURITY-GOVERNANCE
+  category_id: cyber-resilience
+  name: Security Governance
+  atomic_skills:
+  - cyber-resilience-compliance-evidence-compilation
+  - cyber-resilience-security-awareness-exception
+  - cyber-resilience-security-risk-register-update
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CYBER-RESILIENCE-SECURITY-OPERATIONS
+  category_id: cyber-resilience
+  name: Security Operations
+  atomic_skills:
+  - cyber-resilience-fraud-security-collaboration
+  - cyber-resilience-phishing-evidence-triage
+  - cyber-resilience-security-alert-triage
+  - cyber-resilience-soar-action-draft
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CYBER-RESILIENCE-THIRD-PARTY-CYBER-RISK
+  category_id: cyber-resilience
+  name: Third-Party Cyber Risk
+  atomic_skills:
+  - cyber-resilience-third-party-cyber-risk
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CYBER-RESILIENCE-THREAT-INTELLIGENCE
+  category_id: cyber-resilience
+  name: Threat Intelligence
+  atomic_skills:
+  - cyber-resilience-threat-intelligence-synthesis
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-CYBER-RESILIENCE-VULNERABILITY-MANAGEMENT
+  category_id: cyber-resilience
+  name: Vulnerability Management
+  atomic_skills:
+  - cyber-resilience-vulnerability-validation
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-DATA-STRATEGY-AI-GOVERNANCE
+  category_id: data-strategy
+  name: AI Governance
+  atomic_skills:
+  - data-strategy-ai-use-case-qualification
+  - data-strategy-model-inventory-quality
+  - data-strategy-model-risk-assessment-prep
+  - data-strategy-prompt-policy-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-DATA-STRATEGY-ANALYTICS-AND-DECISION-SUPPORT
+  category_id: data-strategy
+  name: Analytics and Decision Support
+  atomic_skills:
+  - data-strategy-analytics-insight-synthesis
+  - data-strategy-dashboard-quality-review
+  - data-strategy-metric-definition-governance
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-DATA-STRATEGY-DATA-ACCESS-GOVERNANCE
+  category_id: data-strategy
+  name: Data Access Governance
+  atomic_skills:
+  - data-strategy-data-access-request-precheck
+  - data-strategy-data-retention-impact
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-DATA-STRATEGY-DATA-ENGINEERING-GOVERNANCE
+  category_id: data-strategy
+  name: Data Engineering Governance
+  atomic_skills:
+  - data-strategy-lineage-evidence-pack
+  - data-strategy-schema-change-impact
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-DATA-STRATEGY-DATA-OPERATIONS
+  category_id: data-strategy
+  name: Data Operations
+  atomic_skills:
+  - data-strategy-data-issue-triage
+  - data-strategy-data-quality-scorecard
+  - data-strategy-master-data-remediation
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-DATA-STRATEGY-DATA-PRODUCT-MANAGEMENT
+  category_id: data-strategy
+  name: Data Product Management
+  atomic_skills:
+  - data-strategy-data-product-assessment
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-DATA-STRATEGY-KNOWLEDGE-OPERATIONS
+  category_id: data-strategy
+  name: Knowledge Operations
+  atomic_skills:
+  - data-strategy-knowledge-refresh-assessment
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-DATA-STRATEGY-PMO-AND-DELIVERY-GOVERNANCE
+  category_id: data-strategy
+  name: PMO and Delivery Governance
+  atomic_skills:
+  - data-strategy-dependency-risk-analysis
+  - data-strategy-program-plan-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-DATA-STRATEGY-STRATEGY-EXECUTION
+  category_id: data-strategy
+  name: Strategy Execution
+  atomic_skills:
+  - data-strategy-benefits-realization-evidence
+  - data-strategy-okr-progress-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-DATA-STRATEGY-STRATEGY-AND-PORTFOLIO-MANAGEMENT
+  category_id: data-strategy
+  name: Strategy and Portfolio Management
+  atomic_skills:
+  - data-strategy-business-case-preparation
+  - data-strategy-portfolio-roadmap-synthesis
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-DATA-STRATEGY-SUSTAINABILITY-OPERATIONS
+  category_id: data-strategy
+  name: Sustainability Operations
+  atomic_skills:
+  - data-strategy-carbon-data-quality
+  - data-strategy-esg-metric-evidence
+  - data-strategy-sustainability-initiative-prioritization
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-ENGINEERING-DEVELOPER-EXPERIENCE
+  category_id: engineering
+  name: Developer Experience
+  atomic_skills:
+  - engineering-developer-environment-readiness
+  - engineering-developer-productivity-insight
+  - engineering-documentation-coverage-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-ENGINEERING-ENGINEERING-INTELLIGENCE
+  category_id: engineering
+  name: Engineering Intelligence
+  atomic_skills:
+  - engineering-codebase-exploration-brief
+  - engineering-incident-postmortem-preparation
+  - engineering-technical-debt-prioritization
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-ENGINEERING-PLATFORM-ENGINEERING
+  category_id: engineering
+  name: Platform Engineering
+  atomic_skills:
+  - engineering-ci-pipeline-failure-analysis
+  - engineering-observability-instrumentation-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-ENGINEERING-PRODUCT-DELIVERY-PLANNING
+  category_id: engineering
+  name: Product Delivery Planning
+  atomic_skills:
+  - engineering-backlog-refinement-support
+  - engineering-issue-backlog-health
+  - engineering-requirements-traceability-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-ENGINEERING-QUALITY-ENGINEERING
+  category_id: engineering
+  name: Quality Engineering
+  atomic_skills:
+  - engineering-accessibility-quality-review
+  - engineering-mobile-quality-readiness
+  - engineering-performance-regression-analysis
+  - engineering-test-failure-triage
+  - engineering-test-plan-design
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-ENGINEERING-RELEASE-MANAGEMENT
+  category_id: engineering
+  name: Release Management
+  atomic_skills:
+  - engineering-feature-flag-readiness
+  - engineering-release-notes-preparation
+  - engineering-release-readiness-gate
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-ENGINEERING-SECURE-CODE-DELIVERY
+  category_id: engineering
+  name: Secure Code Delivery
+  atomic_skills:
+  - engineering-code-review-preparation
+  - engineering-dependency-update-assessment
+  - engineering-open-source-compliance-prep
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-ENGINEERING-TECHNICAL-DESIGN-AND-ARCHITECTURE
+  category_id: engineering
+  name: Technical Design and Architecture
+  atomic_skills:
+  - engineering-api-contract-review
+  - engineering-architecture-decision-record
+  - engineering-database-migration-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-FINANCE-AUDIT-AND-ASSURANCE
+  category_id: finance
+  name: Audit and Assurance
+  atomic_skills:
+  - finance-audit-pbc-compilation
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-FINANCE-EXECUTIVE-FINANCE-REPORTING
+  category_id: finance
+  name: Executive Finance Reporting
+  atomic_skills:
+  - finance-management-reporting-pack
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-FINANCE-FINANCE-GOVERNANCE
+  category_id: finance
+  name: Finance Governance
+  atomic_skills:
+  - finance-financial-policy-query-triage
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-FINANCE-LIQUIDITY-AND-CASH-OPERATIONS
+  category_id: finance
+  name: Liquidity and Cash Operations
+  atomic_skills:
+  - finance-bank-fee-anomaly-review
+  - finance-cash-position-reconciliation
+  - finance-liquidity-forecast-exception
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-FINANCE-MASTER-DATA-CONTROLS
+  category_id: finance
+  name: Master Data Controls
+  atomic_skills:
+  - finance-vendor-master-change-validation
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-FINANCE-PAYABLES-AND-DISBURSEMENTS
+  category_id: finance
+  name: Payables and Disbursements
+  atomic_skills:
+  - finance-ap-invoice-match-exception
+  - finance-payment-exception-preparation
+  - finance-payment-fraud-evidence-triage
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-FINANCE-PLANNING-AND-PERFORMANCE
+  category_id: finance
+  name: Planning and Performance
+  atomic_skills:
+  - finance-forecast-rollup-quality-check
+  - finance-variance-commentary-draft
+  - finance-working-capital-action-plan
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-FINANCE-RECEIVABLES-AND-CREDIT-OPERATIONS
+  category_id: finance
+  name: Receivables and Credit Operations
+  atomic_skills:
+  - finance-ar-collections-prioritization
+  - finance-billing-dispute-analysis
+  - finance-credit-exposure-monitoring
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-FINANCE-RECORD-TO-REPORT
+  category_id: finance
+  name: Record to Report
+  atomic_skills:
+  - finance-close-readiness-assessment
+  - finance-expense-policy-audit
+  - finance-fixed-asset-lifecycle-review
+  - finance-intercompany-reconciliation
+  - finance-journal-entry-support-pack
+  - finance-revenue-close-tie-out
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-FINANCE-TAX-OPERATIONS
+  category_id: finance
+  name: Tax Operations
+  atomic_skills:
+  - finance-indirect-tax-exception-review
+  - finance-tax-data-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-FINANCE-TREASURY-AND-CONTROLS
+  category_id: finance
+  name: Treasury and Controls
+  atomic_skills:
+  - finance-covenant-compliance-check
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-IT-CHANGE-AND-RELEASE-GOVERNANCE
+  category_id: it
+  name: Change and Release Governance
+  atomic_skills:
+  - it-change-review-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-IT-CLOUD-AND-FINOPS-OPERATIONS
+  category_id: it
+  name: Cloud and FinOps Operations
+  atomic_skills:
+  - it-cloud-cost-anomaly-review
+  - it-cloud-tagging-quality-check
+  - it-finops-commitment-analysis
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-IT-CLOUD-AND-PLATFORM-OPERATIONS
+  category_id: it
+  name: Cloud and Platform Operations
+  atomic_skills:
+  - it-alert-noise-analysis
+  - it-capacity-risk-monitoring
+  - it-observability-health-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-IT-DIGITAL-WORKPLACE-AND-ACCESS
+  category_id: it
+  name: Digital Workplace and Access
+  atomic_skills:
+  - it-access-request-precheck
+  - it-digital-workplace-experience
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-IT-ENTERPRISE-ARCHITECTURE-AND-PORTFOLIO
+  category_id: it
+  name: Enterprise Architecture and Portfolio
+  atomic_skills:
+  - it-application-portfolio-assessment
+  - it-architecture-decision-pack
+  - it-integration-interface-assessment
+  - it-technology-roadmap-synthesis
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-IT-IT-FINANCIAL-MANAGEMENT
+  category_id: it
+  name: IT Financial Management
+  atomic_skills:
+  - it-it-financial-plan-support
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-IT-IT-SERVICE-OPERATIONS
+  category_id: it
+  name: IT Service Operations
+  atomic_skills:
+  - it-incident-triage-preparation
+  - it-problem-root-cause-evidence
+  - it-service-level-evidence
+  - it-service-request-classification
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-IT-INFRASTRUCTURE-OPERATIONS
+  category_id: it
+  name: Infrastructure Operations
+  atomic_skills:
+  - it-data-center-operations-review
+  - it-patch-compliance-evidence
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-IT-RESILIENCE-AND-RECOVERY
+  category_id: it
+  name: Resilience and Recovery
+  atomic_skills:
+  - it-backup-restore-readiness
+  - it-disaster-recovery-plan-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-IT-TECHNOLOGY-ASSET-AND-VENDOR-MANAGEMENT
+  category_id: it
+  name: Technology Asset and Vendor Management
+  atomic_skills:
+  - it-software-asset-license-review
+  - it-technology-vendor-risk-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-IT-TECHNOLOGY-DATA-GOVERNANCE
+  category_id: it
+  name: Technology Data Governance
+  atomic_skills:
+  - it-cmdb-quality-assessment
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-LEGAL-RISK-COMPLIANCE-ASSURANCE
+  category_id: legal-risk
+  name: Compliance Assurance
+  atomic_skills:
+  - legal-risk-audit-finding-remediation
+  - legal-risk-control-test-evidence
+  - legal-risk-issue-triage
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-LEGAL-RISK-COMPLIANCE-GOVERNANCE
+  category_id: legal-risk
+  name: Compliance Governance
+  atomic_skills:
+  - legal-risk-compliance-training-exception
+  - legal-risk-policy-change-impact-analysis
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-LEGAL-RISK-CONTRACT-OPERATIONS
+  category_id: legal-risk
+  name: Contract Operations
+  atomic_skills:
+  - legal-risk-clause-variance-analysis
+  - legal-risk-contract-intake-classification
+  - legal-risk-obligation-extraction
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-LEGAL-RISK-CORPORATE-GOVERNANCE
+  category_id: legal-risk
+  name: Corporate Governance
+  atomic_skills:
+  - legal-risk-board-governance-pack
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-LEGAL-RISK-ENTERPRISE-RISK-MANAGEMENT
+  category_id: legal-risk
+  name: Enterprise Risk Management
+  atomic_skills:
+  - legal-risk-enterprise-risk-assessment-prep
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-LEGAL-RISK-ETHICS-AND-CONDUCT
+  category_id: legal-risk
+  name: Ethics and Conduct
+  atomic_skills:
+  - legal-risk-conflict-of-interest-review
+  - legal-risk-ethics-allegation-intake
+  - legal-risk-gifts-hospitality-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-LEGAL-RISK-FINANCIAL-CRIME-COMPLIANCE
+  category_id: legal-risk
+  name: Financial Crime Compliance
+  atomic_skills:
+  - legal-risk-aml-case-evidence-prep
+  - legal-risk-sanctions-screening-case-prep
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-LEGAL-RISK-INFORMATION-GOVERNANCE
+  category_id: legal-risk
+  name: Information Governance
+  atomic_skills:
+  - legal-risk-records-retention-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-LEGAL-RISK-INTELLECTUAL-PROPERTY-OPERATIONS
+  category_id: legal-risk
+  name: Intellectual Property Operations
+  atomic_skills:
+  - legal-risk-ip-docket-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-LEGAL-RISK-LEGAL-MATTER-OPERATIONS
+  category_id: legal-risk
+  name: Legal Matter Operations
+  atomic_skills:
+  - legal-risk-crisis-legal-coordination
+  - legal-risk-legal-hold-readiness
+  - legal-risk-litigation-evidence-compilation
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-LEGAL-RISK-PRIVACY-OPERATIONS
+  category_id: legal-risk
+  name: Privacy Operations
+  atomic_skills:
+  - legal-risk-consent-register-quality-check
+  - legal-risk-dpia-preparation
+  - legal-risk-privacy-request-intake
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-LEGAL-RISK-REGULATORY-INTELLIGENCE
+  category_id: legal-risk
+  name: Regulatory Intelligence
+  atomic_skills:
+  - legal-risk-regulatory-horizon-scan
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-LEGAL-RISK-RISK-TRANSFER-OPERATIONS
+  category_id: legal-risk
+  name: Risk Transfer Operations
+  atomic_skills:
+  - legal-risk-insurance-claim-evidence
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-MARKETING-AUDIENCE-AND-LIFECYCLE-MARKETING
+  category_id: marketing
+  name: Audience and Lifecycle Marketing
+  atomic_skills:
+  - marketing-account-based-signal-qualification
+  - marketing-audience-segmentation-review
+  - marketing-consent-eligibility-check
+  - marketing-nurture-journey-quality-check
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-MARKETING-BRAND-AND-COMMUNICATIONS-RISK
+  category_id: marketing
+  name: Brand and Communications Risk
+  atomic_skills:
+  - marketing-pr-issue-triage
+  - marketing-social-risk-monitoring
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-MARKETING-BRAND-AND-CONTENT-GOVERNANCE
+  category_id: marketing
+  name: Brand and Content Governance
+  atomic_skills:
+  - marketing-brand-compliance-review
+  - marketing-content-claims-review
+  - marketing-content-reuse-eligibility
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-MARKETING-CAMPAIGN-MEASUREMENT
+  category_id: marketing
+  name: Campaign Measurement
+  atomic_skills:
+  - marketing-attribution-explanation-pack
+  - marketing-channel-performance-synthesis
+  - marketing-paid-media-anomaly-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-MARKETING-CAMPAIGN-STRATEGY-AND-OPERATIONS
+  category_id: marketing
+  name: Campaign Strategy and Operations
+  atomic_skills:
+  - marketing-budget-pacing-analysis
+  - marketing-campaign-brief-preparation
+  - marketing-campaign-launch-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-MARKETING-CUSTOMER-ADVOCACY
+  category_id: marketing
+  name: Customer Advocacy
+  atomic_skills:
+  - marketing-customer-advocacy-qualification
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-MARKETING-DEMAND-OPERATIONS
+  category_id: marketing
+  name: Demand Operations
+  atomic_skills:
+  - marketing-lead-quality-review
+  - marketing-marketing-operations-data-quality
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-MARKETING-DIGITAL-CONTENT-OPERATIONS
+  category_id: marketing
+  name: Digital Content Operations
+  atomic_skills:
+  - marketing-seo-content-brief
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-MARKETING-EXECUTIVE-COMMUNICATIONS
+  category_id: marketing
+  name: Executive Communications
+  atomic_skills:
+  - marketing-executive-communication-draft
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-MARKETING-FIELD-AND-EVENT-MARKETING
+  category_id: marketing
+  name: Field and Event Marketing
+  atomic_skills:
+  - marketing-event-readiness-checklist
+  - marketing-webinar-follow-up-preparation
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-MARKETING-MARKET-INTELLIGENCE-AND-MESSAGING
+  category_id: marketing
+  name: Market Intelligence and Messaging
+  atomic_skills:
+  - marketing-competitive-message-synthesis
+  - marketing-market-research-synthesis
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-MARKETING-PARTNER-MARKETING
+  category_id: marketing
+  name: Partner Marketing
+  atomic_skills:
+  - marketing-partner-marketing-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-OPERATIONS-FIELD-OPERATIONS
+  category_id: operations
+  name: Field Operations
+  atomic_skills:
+  - operations-field-service-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-OPERATIONS-INVENTORY-AND-WAREHOUSE-OPERATIONS
+  category_id: operations
+  name: Inventory and Warehouse Operations
+  atomic_skills:
+  - operations-inventory-health-review
+  - operations-stockout-risk-monitoring
+  - operations-warehouse-exception-triage
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-OPERATIONS-LOGISTICS-AND-ORDER-FULFILLMENT
+  category_id: operations
+  name: Logistics and Order Fulfillment
+  atomic_skills:
+  - operations-logistics-disruption-case
+  - operations-order-promise-readiness
+  - operations-return-material-authorization-prep
+  - operations-supplier-eta-exception
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-OPERATIONS-MAINTENANCE-AND-RELIABILITY
+  category_id: operations
+  name: Maintenance and Reliability
+  atomic_skills:
+  - operations-asset-health-evidence
+  - operations-maintenance-plan-readiness
+  - operations-work-order-quality-check
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-OPERATIONS-OPERATIONAL-DATA-GOVERNANCE
+  category_id: operations
+  name: Operational Data Governance
+  atomic_skills:
+  - operations-operations-master-data-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-OPERATIONS-OPERATIONAL-PERFORMANCE
+  category_id: operations
+  name: Operational Performance
+  atomic_skills:
+  - operations-energy-consumption-variance
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-OPERATIONS-PLANNING-AND-S&OP
+  category_id: operations
+  name: Planning and S&OP
+  atomic_skills:
+  - operations-capacity-constraint-analysis
+  - operations-demand-forecast-exception
+  - operations-sop-cycle-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-OPERATIONS-PRODUCTION-OPERATIONS
+  category_id: operations
+  name: Production Operations
+  atomic_skills:
+  - operations-production-schedule-exception
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-OPERATIONS-QUALITY-MANAGEMENT
+  category_id: operations
+  name: Quality Management
+  atomic_skills:
+  - operations-corrective-action-verification
+  - operations-nonconformance-evidence-pack
+  - operations-product-recall-readiness
+  - operations-quality-deviation-intake
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-OPERATIONS-RESPONSIBLE-OPERATIONS
+  category_id: operations
+  name: Responsible Operations
+  atomic_skills:
+  - operations-traceability-evidence-pack
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-OPERATIONS-SAFETY-AND-OPERATIONAL-RISK
+  category_id: operations
+  name: Safety and Operational Risk
+  atomic_skills:
+  - operations-ehs-incident-evidence
+  - operations-safety-observation-triage
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-OPERATIONS-TRADE-AND-LOGISTICS-COMPLIANCE
+  category_id: operations
+  name: Trade and Logistics Compliance
+  atomic_skills:
+  - operations-customs-document-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PEOPLE-CONTINGENT-WORKFORCE-OPERATIONS
+  category_id: people
+  name: Contingent Workforce Operations
+  atomic_skills:
+  - people-contingent-worker-compliance
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PEOPLE-EMPLOYEE-LIFECYCLE-OPERATIONS
+  category_id: people
+  name: Employee Lifecycle Operations
+  atomic_skills:
+  - people-accommodation-handoff-preparation
+  - people-benefits-enrollment-readiness
+  - people-exit-readiness-check
+  - people-leave-case-preparation
+  - people-mobility-case-readiness
+  - people-onboarding-readiness-assessment
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PEOPLE-EMPLOYEE-RELATIONS-AND-ETHICS
+  category_id: people
+  name: Employee Relations and Ethics
+  atomic_skills:
+  - people-employee-relations-evidence
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PEOPLE-LEARNING-AND-CAPABILITY-DEVELOPMENT
+  category_id: people
+  name: Learning and Capability Development
+  atomic_skills:
+  - people-learning-needs-analysis
+  - people-skill-profile-quality-check
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PEOPLE-PAYROLL-AND-TIME-ADMINISTRATION
+  category_id: people
+  name: Payroll and Time Administration
+  atomic_skills:
+  - people-payroll-exception-triage
+  - people-time-attendance-exception
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PEOPLE-PEOPLE-GOVERNANCE
+  category_id: people
+  name: People Governance
+  atomic_skills:
+  - people-dei-metric-evidence
+  - people-ethics-training-completion-review
+  - people-hr-data-quality-remediation
+  - people-people-policy-query-triage
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PEOPLE-PERFORMANCE-AND-TALENT-GROWTH
+  category_id: people
+  name: Performance and Talent Growth
+  atomic_skills:
+  - people-engagement-trend-synthesis
+  - people-performance-checkin-preparation
+  - people-succession-risk-evidence
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PEOPLE-TALENT-ACQUISITION-OPERATIONS
+  category_id: people
+  name: Talent Acquisition Operations
+  atomic_skills:
+  - people-candidate-screening-preparation
+  - people-interview-coordination-readiness
+  - people-offer-approval-preparation
+  - people-requisition-quality-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PEOPLE-WORKFORCE-PLANNING
+  category_id: people
+  name: Workforce Planning
+  atomic_skills:
+  - people-headcount-control-check
+  - people-workforce-plan-variance
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PROCUREMENT-DEMAND-AND-CATEGORY-MANAGEMENT
+  category_id: procurement
+  name: Demand and Category Management
+  atomic_skills:
+  - procurement-category-opportunity-analysis
+  - procurement-demand-intake-qualification
+  - procurement-sourcing-event-design
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PROCUREMENT-PAYABLES-AND-PROCUREMENT
+  category_id: procurement
+  name: Payables and Procurement
+  atomic_skills:
+  - procurement-invoice-exception-analysis
+  - procurement-three-way-match-resolution
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PROCUREMENT-PURCHASING-CONTROLS
+  category_id: procurement
+  name: Purchasing Controls
+  atomic_skills:
+  - procurement-off-contract-spend-analysis
+  - procurement-purchase-approval-routing
+  - procurement-purchase-order-change-triage
+  - procurement-purchase-requisition-compliance
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PROCUREMENT-RESPONSIBLE-SOURCING
+  category_id: procurement
+  name: Responsible Sourcing
+  atomic_skills:
+  - procurement-supplier-diversity-certification
+  - procurement-supplier-esg-evidence-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PROCUREMENT-SUPPLIER-CONTRACT-OPERATIONS
+  category_id: procurement
+  name: Supplier Contract Operations
+  atomic_skills:
+  - procurement-contract-obligation-extraction
+  - procurement-contract-renewal-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PROCUREMENT-SUPPLIER-LIFECYCLE-MANAGEMENT
+  category_id: procurement
+  name: Supplier Lifecycle Management
+  atomic_skills:
+  - procurement-supplier-exit-readiness
+  - procurement-supplier-master-validation
+  - procurement-supplier-onboarding-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PROCUREMENT-SUPPLIER-PERFORMANCE-MANAGEMENT
+  category_id: procurement
+  name: Supplier Performance Management
+  atomic_skills:
+  - procurement-lead-time-exception-triage
+  - procurement-price-variance-investigation
+  - procurement-supplier-performance-scorecard
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PROCUREMENT-SUPPLIER-QUALITY-AND-REMEDIATION
+  category_id: procurement
+  name: Supplier Quality and Remediation
+  atomic_skills:
+  - procurement-corrective-action-follow-up
+  - procurement-supplier-quality-issue-escalation
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-PROCUREMENT-THIRD-PARTY-RISK
+  category_id: procurement
+  name: Third-Party Risk
+  atomic_skills:
+  - procurement-certificate-expiry-monitoring
+  - procurement-supplier-concentration-exposure
+  - procurement-supplier-risk-signal-validation
+  - procurement-third-party-data-change-review
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-REVENUE-CUSTOMER-ADVOCACY
+  category_id: revenue
+  name: Customer Advocacy
+  atomic_skills:
+  - revenue-reference-candidate-qualification
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-REVENUE-CUSTOMER-ESCALATION-MANAGEMENT
+  category_id: revenue
+  name: Customer Escalation Management
+  atomic_skills:
+  - revenue-customer-escalation-coordination
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-REVENUE-CUSTOMER-RETENTION
+  category_id: revenue
+  name: Customer Retention
+  atomic_skills:
+  - revenue-account-health-scorecard
+  - revenue-adoption-analysis
+  - revenue-churn-root-cause-analysis
+  - revenue-qbr-pack-preparation
+  - revenue-renewal-risk-assessment
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-REVENUE-DEAL-ENABLEMENT
+  category_id: revenue
+  name: Deal Enablement
+  atomic_skills:
+  - revenue-rfp-response-evidence
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-REVENUE-DEAL-TO-DELIVERY
+  category_id: revenue
+  name: Deal to Delivery
+  atomic_skills:
+  - revenue-contract-handoff-readiness
+  - revenue-customer-commitment-tracker
+  - revenue-customer-onboarding-readiness
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-REVENUE-PIPELINE-AND-DEAL-OPERATIONS
+  category_id: revenue
+  name: Pipeline and Deal Operations
+  atomic_skills:
+  - revenue-deal-desk-review-pack
+  - revenue-opportunity-qualification
+  - revenue-pricing-exception-preparation
+  - revenue-quote-policy-compliance
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-REVENUE-REVENUE-OPERATIONS
+  category_id: revenue
+  name: Revenue Operations
+  atomic_skills:
+  - revenue-forecast-rollup-exception
+  - revenue-incentive-exception-review
+  - revenue-lead-routing-quality-check
+  - revenue-pipeline-hygiene-review
+  - revenue-sales-activity-capture-review
+  - revenue-territory-coverage-analysis
+  - revenue-win-loss-synthesis
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning
+- id: CD-REVENUE-STRATEGIC-ACCOUNT-GROWTH
+  category_id: revenue
+  name: Strategic Account Growth
+  atomic_skills:
+  - revenue-account-plan-preparation
+  - revenue-expansion-signal-qualification
+  - revenue-stakeholder-map-preparation
+  case_ownership: Define per customer implementation; route material decisions to named human owner.
+  required_foundation_skills:
+  - ibm-capability-orchestrator
+  - evidence-provenance-and-knowledge
+  - decision-rights-and-human-handoff
+  - evaluation-and-release-governance
+  - agent-operations-and-learning

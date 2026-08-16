@@ -1,0 +1,66 @@
+proactivity_profile:
+  capability_director: CD-<DOMAIN>-<OUTCOME>
+  level: P1
+  status: proposed
+
+  trigger:
+    type: schedule | event
+    schedule: <cron-or-approved-cadence>
+    event_schema: <schema-ref>
+    source_system: <system>
+    source_authority_owner: <role>
+    freshness_sla: <duration>
+    data_classification: <classification>
+
+  qualification:
+    rules: []
+    confidence_threshold: 0.0
+    deduplication_key: <key>
+    suppression_rules: []
+    priority_rules: []
+    false_positive_handling: <policy>
+    stale_or_conflicting_signal_handling: <fail-closed policy>
+
+  case_management:
+    system_of_record: <system-and-object>
+    permitted_case_actions: [create, update, route]
+    owner_assignment: <role-or-rule>
+    escalation_sla: <duration>
+    expiry_or_aging_rule: <rule>
+
+  human_attention:
+    accountable_owner: <role>
+    maximum_notifications_per_owner_per_day: 0
+    digest_policy: <policy>
+    approval_required_for: []
+
+  permitted_initiation: []
+  prohibited_initiation: []
+  maximum_action_tier: A0
+  preconditions: []
+  idempotency_key: <key-or-null>
+  rate_limit: <limit>
+  post_action_verification: <procedure>
+  rollback_or_compensation: <procedure>
+
+  telemetry:
+    events: [signal_received, signal_rejected, signal_qualified, signal_suppressed, case_opened, action_proposed, human_decision, action_executed, rollback_executed]
+    metrics: [precision, missed_critical_events, time_to_case, reviewer_acceptance, alert_volume, action_success]
+    thresholds: []
+
+  evaluation_cases:
+    - true_positive
+    - false_positive
+    - stale_signal
+    - duplicate_signal
+    - conflicting_signal
+    - owner_unavailable
+    - tool_unavailable
+    - malformed_or_hostile_payload
+    - rate_limit
+    - rollback
+
+  approvals:
+    business_owner: <role>
+    control_owner: <role>
+    operations_owner: <role>

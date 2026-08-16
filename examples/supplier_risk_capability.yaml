@@ -1,0 +1,108 @@
+capability_director:
+  id: CD-PROCUREMENT-SUPPLIER-RISK
+  name: Supplier Risk Capability Director
+  version: 0.1.0
+  lifecycle: example_only
+  mission: Detect, validate, and route supplier-risk events early enough for accountable owners to protect supply continuity and compliance.
+  job_to_be_done: When an approved supplier signal or obligation threshold is met, create a decision-ready risk case with evidence and the next governed action.
+  accountable_human_owner: supplier_risk_manager
+  process_owner: procurement_operations_owner
+  control_owner: third_party_risk_owner
+  data_knowledge_steward: supplier_master_data_steward
+  operations_owner: procurement_agent_operations_owner
+
+  outcome_metrics:
+    - critical_signal_time_to_case
+    - qualified_signal_precision
+    - reviewer_acceptance_rate
+    - remediation_closure_rate
+  guardrail_metrics:
+    - missed_critical_event_rate
+    - false_positive_rate
+    - notifications_per_owner_per_day
+
+  case_system_of_record: supplier_risk_case_management
+  case_state_model:
+    initial: intake
+    states: [intake, signal_qualified, context_collected, risk_assessed, awaiting_review, remediation_planned, completed, exception, stopped]
+    transition_owners:
+      signal_qualified: supplier_risk_capability_director
+      awaiting_review: supplier_risk_manager
+      remediation_planned: supplier_risk_manager
+      completed: supplier_risk_manager
+
+  orchestration_graph:
+    nodes:
+      - skill: enterprise-capability-intake
+        purpose: validate_case_context
+        output: supplier_risk_case_brief
+      - skill: evidence-provenance-and-knowledge
+        purpose: validate_signal_source_and_supplier_master_context
+        output: authorized_evidence_set
+      - skill: supplier-context-retrieval
+        purpose: retrieve_supplier_relationship_contract_and_obligation_context
+        output: supplier_context_packet
+      - skill: supplier-signal-validation
+        purpose: classify_signal_source_confidence_and_relevance
+        output: validated_signal_packet
+      - skill: supplier-risk-scoring
+        purpose: apply_approved_risk_taxonomy_and_thresholds
+        output: risk_assessment_packet
+      - skill: decision-rights-and-human-handoff
+        purpose: prepare_owner_decision_and_follow_up_packet
+        output: supplier_risk_handoff
+      - skill: evaluation-and-release-governance
+        purpose: verify_package_behavior_for_release
+        output: evaluation_evidence
+      - skill: agent-operations-and-learning
+        purpose: emit_operational_events_and_learning_candidates
+        output: operations_event_summary
+    final_completion_condition: supplier_risk_manager_accepts_case_disposition_or_declared_exception_is_recorded
+
+  maximum_action_tier: A2
+  decision_rights:
+    autonomous:
+      - classify approved risk signals
+      - retrieve authorized supplier, contract, and policy evidence
+      - open or update an internal supplier risk case
+      - draft a supplier follow-up and remediation options
+    recommend_only:
+      - recommend risk level and mitigation path
+      - recommend supplier escalation priority
+    human_approval_required:
+      - send external supplier communication
+      - suspend supplier
+      - change purchase or payment status
+      - approve policy exception
+    hard_stops:
+      - unclear supplier identity or data access
+      - conflicting authoritative evidence
+      - unsupported or stale signal
+      - requested commercial or payment action
+      - policy threshold not met
+
+  proactivity_profile:
+    level: P2
+    trigger:
+      type: event
+      source_system: approved_supplier_risk_feed
+      source_authority_owner: third_party_risk_owner
+      freshness_sla: 24h
+    qualification:
+      confidence_threshold: 0.85
+      deduplication_key: supplier_id + signal_type + event_date
+      suppression_rules: [active_case_exists, approved_exception_exists]
+    human_attention:
+      accountable_owner: supplier_risk_manager
+      maximum_notifications_per_owner_per_day: 5
+    permitted_initiation: [open_internal_supplier_risk_case, draft_supplier_follow_up, route_to_supplier_risk_manager]
+    prohibited_initiation: [suspend_supplier, alter_payment_status, change_contract, send_external_message]
+    maximum_action_tier: A2
+    telemetry:
+      metrics: [precision, missed_critical_events, time_to_case, reviewer_acceptance, notification_volume]
+
+  evaluation:
+    capability_cases: [adverse_media, certificate_expiry, supplier_financial_distress, incomplete_supplier_data]
+    boundary_cases: [request_to_suspend_supplier, request_to_change_payment, conflicting_contract_data]
+    proactivity_cases: [duplicate_signal, stale_signal, active_case_suppression, owner_unavailable]
+    quality_thresholds: [critical_missed_event_rate_zero, precision_at_least_0.90, time_to_case_under_15_minutes]

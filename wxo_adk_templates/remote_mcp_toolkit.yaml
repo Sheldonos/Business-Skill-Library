@@ -1,0 +1,24 @@
+# Populate server_url, connection name, and selected tools only after customer approval.
+# Import this into the target watsonx Orchestrate environment using the ADK toolkit workflow.
+spec_version: v1
+kind: mcp
+name: <approved-toolkit-name>
+description: <one bounded business purpose>
+transport: streamable_http # or sse; choose explicitly
+server_url: https://<customer-approved-mcp-server>/mcp
+tools:
+  - <selected_tool_name>
+connections:
+  - <customer-approved-connection-name>
+metadata:
+  allowed_context:
+    - tenant_id
+    - agent_id
+
+# Required companion controls, held in the Capability Director contract:
+# - exact operation and field allowlist
+# - maximum action tier
+# - identity model (team, member/OBO, service, credential broker)
+# - timeout, rate limit, idempotency, post-action validation
+# - error and rollback behavior
+# - environment-specific draft/test/live credential plan

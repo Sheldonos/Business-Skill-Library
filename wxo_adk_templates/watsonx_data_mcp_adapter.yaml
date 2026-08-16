@@ -1,0 +1,37 @@
+tool_adapter:
+  id: TA-WATSONX-DATA-GOVERNED-RETRIEVAL
+  lifecycle: planned
+  system: IBM watsonx.data
+  business_operation: Retrieve or query approved lakehouse and document data for a bounded evidence-backed capability task.
+  implementation: remote_mcp_or_local_mcp
+  connection_ref: customer-configured-watsonx-data-connection
+  allowed_operations:
+    - retrieve_authorized_documents
+    - execute_approved_read_query
+    - inspect_metadata_or_lineage
+  prohibited_operations:
+    - unrestricted_query
+    - data_mutation
+    - policy_change
+    - privilege_change
+  maximum_action_tier: A0
+  identity_model: user_obo_or_scoped_service
+  input_schema: governed_data_request.v1
+  output_schema: governed_data_evidence_packet.v1
+  validation:
+    - require_data_product_or_dataset_identifier
+    - enforce_row_column_and_tenant_policy
+    - enforce_query_cost_or_scan_budget
+    - enforce_output_classification_and_redaction
+    - cite_query_or_retrieval_reference
+  error_handling:
+    - fail_closed_on_policy_denial_or_classification_conflict
+    - route_missing_data_access_to_data_steward
+  evidence_fields: [dataset_or_document_ref, query_ref, data_product_owner, policy_context, freshness, classification]
+  post_action_verification: not_applicable_read_only
+  owners:
+    service: data_platform_owner
+    data: data_product_owner
+    credential_policy: identity_owner
+
+# This template is an adapter contract only. It does not configure the service endpoint or credentials.

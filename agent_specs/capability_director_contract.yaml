@@ -1,0 +1,93 @@
+capability_director:
+  id: CD-<DOMAIN>-<OUTCOME>
+  name: <Human-readable Capability Director>
+  version: 0.1.0
+  lifecycle: proposed
+  mission: <One outcome-focused sentence>
+  job_to_be_done: <When user/event occurs, create this measurable outcome>
+  target_users: []
+  accountable_human_owner: <Role>
+  process_owner: <Role>
+  control_owner: <Role>
+  data_knowledge_steward: <Role>
+  operations_owner: <Role>
+
+  outcome_metrics: []
+  guardrail_metrics: []
+  service_level_objectives: []
+  scope: []
+  non_responsibilities: []
+  case_system_of_record: <System and object>
+  case_state_model:
+    initial: intake
+    states: [intake, qualified, planned, in_progress, awaiting_review, approved_for_action, completed, exception, stopped, retired]
+    transition_owners: {}
+    aging_rules: []
+    completion_criteria: []
+
+  inputs: []
+  outputs:
+    - name: evidence_envelope
+      schema: evidence_envelope.v1
+      evidence_required: true
+    - name: primary_artifact
+      schema: <artifact>.v1
+      evidence_required: true
+
+  knowledge_policy:
+    authoritative_sources: []
+    source_precedence: []
+    freshness_sla: <duration>
+    classification_rules: []
+    citation_required: true
+    retention_profile: <profile>
+    durable_memory_policy: validated_change_only
+
+  orchestration_graph:
+    required_skills:
+      - enterprise-capability-intake
+      - role-capability-director
+      - ibm-capability-orchestrator
+      - evidence-provenance-and-knowledge
+      - decision-rights-and-human-handoff
+      - evaluation-and-release-governance
+      - agent-operations-and-learning
+    atomic_domain_skills: []
+    optional_skills: [proactivity-signal-case-action, tool-and-integration-broker, industry-blueprint-composer]
+    nodes: []
+    final_completion_condition: <condition>
+
+  integrations: []
+  maximum_action_tier: A0
+  decision_rights:
+    autonomous: []
+    recommend_only: []
+    human_approval_required: []
+    hard_stops: []
+    segregation_of_duties: []
+
+  proactivity_profile:
+    level: P0
+    reference: null
+
+  evaluation:
+    capability_cases: []
+    grounding_cases: []
+    boundary_cases: []
+    tool_cases: []
+    collaboration_cases: []
+    proactivity_cases: []
+    security_cases: []
+    quality_thresholds: []
+    human_acceptance_roles: []
+
+  operations:
+    telemetry_events: [case_received, evidence_accessed, skill_completed, policy_checked, handoff_emitted, exception_raised, human_decision_recorded, action_executed, evaluation_recorded]
+    cost_budget: <budget>
+    incident_runbook: <reference>
+    rollback_plan: <reference>
+    knowledge_refresh: <policy>
+
+  customer_extensions:
+    configurable: [terminology, templates, source_allowlist, connector_scope, approval_routing, evaluation_cases, retention_localization]
+    protected: [mission, action_tier, hard_stops, policy_controls, evaluation_thresholds]
