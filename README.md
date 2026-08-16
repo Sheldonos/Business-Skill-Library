@@ -1,4 +1,4 @@
-# IBM Business Skill Library v2.0
+# Business Skill Library v2.0
 
 **312 governed skills across 12 enterprise business categories, elevated to production depth.**
 
